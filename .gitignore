@@ -1,0 +1,26 @@
+# Secrets: nothing in this category may ever enter this repository.
+# It is public, and git history is public with it.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials.json
+secrets.*
+
+# Full backup of the old Duda site (originals, ~140 MB). Kept local on purpose.
+# The site is served from the optimised copies in assets/.
+_duda-backup/
+
+# macOS
+.DS_Store
+._*
+
+# Editors / local tooling
+.vscode/
+.idea/
+.claude/
+*.swp
+*~
+node_modules/
+*.log
